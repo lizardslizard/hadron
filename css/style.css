@@ -72,6 +72,7 @@ button {
   z-index: 1;
   top: 0;
   left: 0;
+  transition: 0.3s;
 }
 
 .sidenav ul {
@@ -89,8 +90,9 @@ button {
 .sidenav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 8px 15px;
+  padding: 10px 17.5px;
   margin: 5px 2.5px;
+  border-radius: 4px;
   transition: 0.3s;
 }
 
@@ -105,10 +107,33 @@ button {
   width: 30%;
 }
 
-.sidenav-logo img {
+.sidenav-logo .sidenav-logo-white,
+.sidenav-logo .sidenav-logo-blue {
   margin: 22.5px 0px;
   height: 35px;
   width: 205px;
+}
+
+.sidenav-logo-blue {
+  display: none;
+}
+
+.sidenav-fix {
+  background-color: #fff;
+  box-shadow: 1.5px 2.598px 4px 0 rgba(94, 102, 102, 0.1);
+  border-bottom: 1px solid #e0e3e5;
+}
+
+.sidenav-fix ul li a {
+  color: #4a5163;
+}
+
+.sidenav-fix .sidenav-logo-blue {
+  display: block;
+}
+
+.sidenav-fix .sidenav-logo-white {
+  display: none;
 }
 
 .block {
