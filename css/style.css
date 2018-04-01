@@ -166,3 +166,7 @@ button {
 .btn-blue:hover .btn-line {
   right: 10px;
 }
+
+.btn-blue-2 {
+  padding-left: 70px;
+}
